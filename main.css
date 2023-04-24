@@ -1,0 +1,61 @@
+body{
+    background: rgb(175, 102, 204);
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ 
+    backdrop-filter: blur(5px);
+}
+
+h1{
+    color: whitesmoke;
+    position: absolute;
+    top: 440px;
+    left: 455px;
+}
+
+img{
+    width: 400px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 450px;
+}
+p{
+    color: whitesmoke;
+    position: absolute;
+    font-size: 20px;
+    top: 445px;
+    left: 730px;
+}
+#prev{
+    background-color: black;
+    border: none;
+    position: absolute;
+    top: 500px;
+    left: 500px;
+}
+#play{
+    background-color: black;
+    border: none;
+    position: absolute;
+    top: 500px;
+    left: 570px;
+}
+#next{
+    background-color: black;
+    border: none;
+    position: absolute;
+    top: 500px;
+    left:640px;
+}
+.prev{
+    color: whitesmoke;
+    height: 5vh;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
